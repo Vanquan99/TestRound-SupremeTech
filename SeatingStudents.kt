@@ -1,5 +1,7 @@
 # Android Internship 2022 - Test Round - SupremeTech
+
 ## ĐỀ 
+
 >/*
 Challenge
 Have the function SeatingStudents(arr) read the array of integers stored in arr which will be in the 
@@ -26,10 +28,12 @@ Output:6
 */
 
 
-### Link bài test
+### LINK BAI TEST
+
 [Test](https://coderbyte.com/sl-candidate?promo=supremetechcoltd-j377u:algorithm-assessment-1vp6bd6z2l)
        
 # CODE
+       
     ```   
        fun SeatingStudents(arr: Array<Int>): Int {
     if(arr.isEmpty() || arr[0] % 2 != 0)
