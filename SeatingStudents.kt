@@ -1,8 +1,6 @@
 # Android Internship 2022 - Test Round - SupremeTech
 
-## ĐỀ 
-
->/*
+/*
 Challenge
 Have the function SeatingStudents(arr) read the array of integers stored in arr which will be in the 
 following format: [K, r1, r2, r3, ...] where K represents the number of desks in a classroom, 
@@ -25,16 +23,7 @@ Input:6, 4
 Output:4
 Input:8, 1, 8
 Output:6
-*/
-
-
-### LINK BAI TEST
-
-[Test](https://coderbyte.com/sl-candidate?promo=supremetechcoltd-j377u:algorithm-assessment-1vp6bd6z2l)
-       
-# CODE
-       
-    ```   
+*/ 
        fun SeatingStudents(arr: Array<Int>): Int {
     if(arr.isEmpty() || arr[0] % 2 != 0)
         throw Exception("invalid argument") //optional
@@ -62,6 +51,4 @@ Output:6
     
     return totalCombinations
 }
-```
-
 
